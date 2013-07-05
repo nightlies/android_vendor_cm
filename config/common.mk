@@ -238,4 +238,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.modversion=$(CM_VERSION)
 
 
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.CM.version=$(CM_VERSION) \
+  ro.modversion=Ax-$(CMM_VERSION) \
+  ro.goo.developerid=Lloir \
+  ro.goo.rom=CyanogenMod \
+  ro.goo.version=$(shell date +%s)
+
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
