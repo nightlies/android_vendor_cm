@@ -174,7 +174,8 @@ PRODUCT_PACKAGES += \
     nano \
     htop \
     powertop \
-    lsof
+    lsof \
+    GooManager
 
 # Openssh
 PRODUCT_PACKAGES += \
